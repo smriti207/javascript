@@ -36,12 +36,13 @@ while(a<=10)
 //5. printing the following pattern 0,1,1,2,3,5,8,13,21,34,55
 
 var a=0
+var count=0
 var b=1
 var c=a+b
 console.log("fabonacci series")
 console.log(a)
 console.log(b)
-while(a<34)
+while(count<=9)
 {
     
     console.log(c)
