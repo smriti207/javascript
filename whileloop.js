@@ -7,7 +7,7 @@ while(a>=0)
     a--
 }
 
-//2.
+//2. printing 10,9,8,7,6,5,4,3,2,1
 var a=10
 while(a>=1)
 {
@@ -15,7 +15,7 @@ while(a>=1)
     a--
 }
 
-//3.
+//3. printing 1,2,3,4,5,6,7,8,9,10
 
 var a=1
 while(a<=10)
@@ -24,7 +24,7 @@ while(a<=10)
     a++
 }
 
-//4.
+//4.printing 2,4,6,8,10,12,14,16,18,20
 
 var a=1
 while(a<=10)
@@ -57,5 +57,23 @@ var a=0
 while(a<=9)
 {
     console.log("*")
+    a++
+}
+
+//7.printing 20,18,16,14,12,10,8,6,4,2,0
+
+var a=10
+while(a>=0)
+{
+    console.log(2*a)
+    a--
+}
+
+//8. printing 40,80,120,160,200,240,280,320,360,400
+
+var a=1
+while(a<=10)
+{
+    console.log(40*a)
     a++
 }
