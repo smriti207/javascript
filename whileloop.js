@@ -33,13 +33,29 @@ while(a<=10)
     a++
 }
 
-//5.
+//5. printing the following pattern 0,1,1,2,3,5,8,13,21,34,55
 
 var a=0
-console.log("addition")
-while(a<=10)
+var b=1
+var c=a+b
+console.log("fabonacci series")
+console.log(a)
+console.log(b)
+while(a<34)
 {
     
-    console.log(a + a++)
+    console.log(c)
+    a=b
+    b=c
+    c=a+b
+    a++
+}
+
+//6. printing ***********
+
+var a=0
+while(a<=9)
+{
+    console.log("*")
     a++
 }
