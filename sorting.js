@@ -4,6 +4,7 @@ var a=0
 var temp=0
 var b=0
 var c=0
+var output=[]
 var arr=[1,4,17,7,25,3,100]
 for(a=0;a<arr.length;a++)
 {
@@ -19,5 +20,10 @@ for(a=0;a<arr.length;a++)
         }
     }
     }
-    console.log(arr[a])
+    output.push(arr[a])
 }
+console.log("three largest number of the arrays")
+for(var d=(arr.length-1);d>3;d--)
+    {
+        console.log(arr[d])
+    }
